@@ -1,0 +1,42 @@
+{
+  "name": "coder-academy-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.0.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "styled-components": "^5.2.1",
+    "styled-normalize": "^8.0.7",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "eject": "react-scripts eject",
+    "build": "craco build",
+    "open": "cmd.exe /C start http://localhost:3000",
+    "start": "craco start & yarn open",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
