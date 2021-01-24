@@ -70,3 +70,13 @@ module.exports = { webpack: { alias: resolvedAliases } };
 - Created the **development** branch so that I can get into the habit of doing commits, leaving proper commit messages, merging, and all that other good stuff.
 
 - Adde some styling for this `README` file.
+
+- Added `husky` for git related hooks. Does not do anything useful at all. Just opens the browser before the commit.
+
+```json
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn open"
+    }
+  }
+```

@@ -1,4 +1,7 @@
+//TODO Add aliases for chrome.
+
 import React from "react";
+
 import ReactDOM from "react-dom";
 
 import { GlobalStyle } from "@components";
